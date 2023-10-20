@@ -6,50 +6,61 @@
     font-family: "Poppins", sans-serif;
 }
 
-
+/* tela principal */
 .container {
     width: 100vw;
     height: 100vh;
     display: flex;
 }
 
+/* menu lateral */
 .container .menu-lateral {
     height: 100%;
     width: 80px;
-    background: #d2ece5;
+    background: #ebeefa;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+/* logo */
 .empresa {
     margin-top: 15px;
     rotate: 90deg;
 }
 
-.mid{
+/* icones do meio */
+.mid {
     display: flex;
     flex-direction: column;
 }
-i{
+
+/* tamanho dos icones */
+i {
     margin: 15px;
 }
 
-.homem{
-    height: 65px;
+/* foto do usuário */
+.homem {
+    height: 50px;
     border-radius: 70px;
+    margin-left: 8px;
 }
+
+/* menu dashboard */
 .container .menu {
     height: 100%;
     width: 280px;
-    background: #cddfdb;
+    background: #f4f6fd;
 }
 
+/* parte de cima */
 .container .menu .box1 {
     height: 50%;
     padding-top: 50px;
 }
 
+/* parte de baixo */
 .container .menu .box2 {
     height: 50%;
     display: flex;
@@ -57,6 +68,7 @@ i{
 
 }
 
+/* a lista */
 .container .menu ul li {
     margin: 15px;
     font-size: 16px;
@@ -85,8 +97,67 @@ a:active {
     color: #333;
 }
 
+/* resto da tela */
 .container .main {
     height: 100%;
     width: 100%;
-    background-color: #bed1ca;
+    background-color: #ffffff;
+    position: relative;
+}
+
+/* toda a parte de cima */
+.head-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    flex-wrap: wrap;
+
+}
+
+/* o nome da empresa */
+.head-main-left {
+    color: #8894b5;
+    font-size: 23px;
+    margin-top: 40px;
+    /* botao de buscar */
+}
+
+.icone{
+    border-radius: 20px;
+    border: none;
+    margin: 5px;
+}
+
+.btn-text-top {
+    background-color: #f5f6fa;
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 15px 50px 15px 30px;
+    border-radius: 30px;
+    width: 220px;
+    height: 20px;
+    font-weight: 300;
+    color: #8795a2;
+}
+
+/* a lupa */
+.btn-buscar-top {
+    width: 20px;
+    height: 22px;
+    background: url(http://www.devmedia.com.br/imagens/2013/buscar_grey.png) no-repeat;
+    border: none;
+    transform: translateY(-50%);
+    transform: scaleX(-1);
+    padding: 0;
+    position: relative;
+    top: -37px;
+    left: 465px;
+}
+
+input {
+    font-size: 20px; /* Tamanho da fonte do texto inserido na caixa de busca */
+}
+
+.title{
+    font-size: 30px;
+    margin-left: 60px;
 }
