@@ -41,7 +41,7 @@ i {
 }
 
 /* foto do usuário */
-.homem {
+.homem{
     height: 50px;
     border-radius: 70px;
     margin-left: 8px;
@@ -52,21 +52,16 @@ i {
     height: 100%;
     width: 280px;
     background: #f4f6fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* parte de cima */
 .container .menu .box1 {
-    height: 50%;
     padding-top: 50px;
 }
 
-/* parte de baixo */
-.container .menu .box2 {
-    height: 50%;
-    display: flex;
-    align-items: flex-end;
-
-}
 
 /* a lista */
 .container .menu ul li {
@@ -109,7 +104,7 @@ a:active {
 .head-main {
     display: flex;
     justify-content: space-between;
-    margin: 40px;
+    margin: 40px 40px 20px 40px;
     flex-wrap: wrap;
 
 }
@@ -126,6 +121,7 @@ a:active {
     border-radius: 20px;
     border: none;
     margin: 5px;
+    cursor:pointer
 }
 
 .btn-text-top {
@@ -160,4 +156,96 @@ input {
 .title{
     font-size: 30px;
     margin-left: 60px;
+    margin-top: -10px;
+}
+
+.main-center{
+    display: flex;
+}
+.main-div{
+    width: 600px;
+    height: 200px;
+    border-radius: 50px;
+    border: #eaedf6;
+    border-style: solid;
+    background: #f4f6fd;
+    position: relative;
+    margin-left: 15px;
+}
+
+
+.main-top{
+    display: flex;
+}
+
+.user1{
+    position: absolute;
+    left: 10px;
+    height: 50px;
+    border-radius: 70px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.user2{
+    position: absolute;
+    left: 45px;
+    height: 50px;
+    border-radius: 70px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+.user3{
+    position: absolute;
+    left: 85px;
+    height: 50px;
+    border-radius: 70px;
+    margin-left: 8px;
+    margin-top: 6px;
+}
+
+.text{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+p{
+    color: #9297b7;
+}
+.flash{
+    background: #ff48ee;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 1px 5px 10px #ff48ee;
+    position: absolute;
+    border: none;
+    right: 90px;
+    top: -40px;
+    cursor: pointer;
+
+}
+
+.flash2{
+    background: #6171ff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    box-shadow: 1px 5px 10px #6171ff;
+    position: absolute;
+    border: none;
+    right: 90px;
+    top: -40px;
+    cursor: pointer;
+}
+
+.dots{
+    position: absolute;
+    right: 20px;
+    top: 4px;
+    cursor: pointer;
 }
