@@ -113,7 +113,7 @@ a:active {
 .head-main-left {
     color: #8894b5;
     font-size: 23px;
-    margin-top: 40px;
+    margin-top: 20px;
     /* botao de buscar */
 }
 
@@ -248,4 +248,26 @@ p{
     right: 20px;
     top: 4px;
     cursor: pointer;
+}
+
+.menor-div{
+    width: 100px;
+    height: 200px;
+    background: #ffffff;
+    border:#e8ebf5;
+    border-style: solid;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.plus{
+    position: absolute;
+    top: 75px;
+    left: 25px;
+}
+
+hr{
+    margin-top: 130px;
+    color: #fdfdfd;
 }
