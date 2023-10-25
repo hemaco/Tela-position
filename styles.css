@@ -41,7 +41,7 @@ i {
 }
 
 /* foto do usuário */
-.homem{
+.homem {
     height: 50px;
     border-radius: 70px;
     margin-left: 8px;
@@ -117,11 +117,11 @@ a:active {
     /* botao de buscar */
 }
 
-.icone{
+.icone {
     border-radius: 20px;
     border: none;
     margin: 5px;
-    cursor:pointer
+    cursor: pointer
 }
 
 .btn-text-top {
@@ -150,19 +150,21 @@ a:active {
 }
 
 input {
-    font-size: 20px; /* Tamanho da fonte do texto inserido na caixa de busca */
+    font-size: 20px;
+    /* Tamanho da fonte do texto inserido na caixa de busca */
 }
 
-.title{
+.title {
     font-size: 30px;
     margin-left: 60px;
-    margin-top: -10px;
+    margin-top: -50px;
 }
 
-.main-center{
+.main-center {
     display: flex;
 }
-.main-div{
+
+.main-div {
     width: 600px;
     height: 200px;
     border-radius: 50px;
@@ -174,11 +176,11 @@ input {
 }
 
 
-.main-top{
+.main-top {
     display: flex;
 }
 
-.user1{
+.user1 {
     position: absolute;
     left: 10px;
     height: 50px;
@@ -186,7 +188,8 @@ input {
     margin-left: 8px;
     margin-top: 6px;
 }
-.user2{
+
+.user2 {
     position: absolute;
     left: 45px;
     height: 50px;
@@ -194,7 +197,8 @@ input {
     margin-left: 8px;
     margin-top: 6px;
 }
-.user3{
+
+.user3 {
     position: absolute;
     left: 85px;
     height: 50px;
@@ -203,20 +207,21 @@ input {
     margin-top: 6px;
 }
 
-.text{
+.text {
     margin-top: 70px;
     margin-left: 50px;
 }
 
-h3{
+h3 {
     font-size: 40px;
     font-weight: 400;
 }
 
-p{
+p {
     color: #9297b7;
 }
-.flash{
+
+.flash {
     background: #ff48ee;
     width: 70px;
     height: 70px;
@@ -230,7 +235,7 @@ p{
 
 }
 
-.flash2{
+.flash2 {
     background: #6171ff;
     width: 70px;
     height: 70px;
@@ -243,31 +248,110 @@ p{
     cursor: pointer;
 }
 
-.dots{
+.dots {
     position: absolute;
     right: 20px;
     top: 4px;
     cursor: pointer;
 }
 
-.menor-div{
+.menor-div {
     width: 100px;
     height: 200px;
     background: #ffffff;
-    border:#e8ebf5;
+    border: #e8ebf5;
     border-style: solid;
     position: relative;
     margin-left: 20px;
     border-radius: 50px;
 }
 
-.plus{
+.plus {
     position: absolute;
     top: 75px;
     left: 25px;
 }
 
-hr{
-    margin-top: 130px;
+hr {
+    margin-top: 30px;
+    margin-bottom: 20px;
     color: #fdfdfd;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+.tds {
+    display: flex;
+    /* Define um contêiner flex dentro da <td> */
+    align-items: center;
+    /* Alinha os elementos verticalmente ao centro */
+}
+
+.usuario {
+    height: 50px;
+    border-radius: 70px;
+    margin: 10px;
+}
+
+th {
+    color: #9297b7;
+}
+
+td {
+    text-align: center;
+}
+
+.blue {
+    background: #f4f6fd;
+}
+
+.backlog {
+    width: 110px;
+    height: 40px;
+    background: #d8ddef;
+    color: #aaa8be;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.progress {
+    width: 110px;
+    height: 45px;
+    background: #d1e4ff;
+    color: #8c89d6;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.done {
+    width: 110px;
+    height: 45px;
+    background: #cfffde;
+    color: #68b474;
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.arrow {
+    width: 53px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-right: 10px;
 }
